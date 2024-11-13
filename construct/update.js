@@ -103,11 +103,11 @@ function setText(){
   fullHeight += sH;
 }
 
-function reRoll(){
-  typeToggle = round(random(1,2));
-
+function reRoll() {
+  typeToggle = Math.round(random(1, 2));
   setText();
 }
+
 
 function aSet(ticker, influ){          // takes a 0 - 1 and returns an eased 0 - 1
   var capTicker = ticker%1;
