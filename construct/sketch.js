@@ -26,7 +26,7 @@ var keyArray = [];
 
 var xNudge = [];
 var wordCount = [];
-var stripH = 80;
+var stripH = 100;
 var wWindow;
 var wPad;
 
@@ -41,8 +41,8 @@ var typeToggle = 1;
 
 function preload(){
   // tFont[0] = loadFont("resources/Linotype - Neue Haas Grotesk Text Std 55 Roman.ttf");
-  tFont[0] = loadFont("construct/resources/SF-Pro-Text-Medium.otf");
-  tFont[1] = loadFont("construct/resources/Collettivo-Cinema.otf");
+  tFont[0] = loadFont("construct/resources/PPMondwest-Regular.otf");
+  tFont[1] = loadFont("construct/resources/SF-Pro-Text-Medium.otf");
   tFont[2] = loadFont("construct/resources/PPMondwest-Regular.otf");
 
   for(var i = 0; i<11; i++){
