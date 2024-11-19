@@ -78,7 +78,7 @@ function setup(){
   foreColor = color('#ffffff');
   colorA[0] = color('#25d964');
   colorA[1] = color('#f24f13');
-  colorA[2] = color('#f2b90f');
+  colorA[2] = color('#fecee9');
   colorA[3] = color('#0f5cbf');
   colorA[4] = bkgdColor;
 
