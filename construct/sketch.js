@@ -46,7 +46,7 @@ function preload(){
   tFont[2] = loadFont("construct/resources/PPMondwest-Regular.otf");
 
   for(var i = 0; i<11; i++){
-    pImg[i] = loadImage("construct/resources/gifs/" + i + ".gif");
+    pImg[i] = loadImage("construct/resources/Depagifs/" + i + ".gif");
   }
   // pImg[0] = loadImage("construct/resources/gifs/0.gif");
   // pImg[1] = loadImage("construct/resources/gifs/1.gif");
