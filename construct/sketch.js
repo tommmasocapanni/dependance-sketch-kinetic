@@ -64,13 +64,13 @@ function preload(){
 function setup(){
   createCanvas(windowWidth,windowHeight);
   frameRate(30);
-  
+
   // Imposta stripH a un valore più basso su mobile
-  stripH = windowWidth < 768 ? 50 : 100; // Adatta per mobile e desktop
+  stripH = windowWidth < 768 ? 50 : 124; // Adatta per mobile e desktop
   wPad = windowWidth < 768 ? 60 : 40;
 
 
-  //wPad = 40;
+  // wPad = 40;
   wWindow = width - map(wPad, 0, 100, 0, width);
   typeToggle = int(random(1,2));
 
